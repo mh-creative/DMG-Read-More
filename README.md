@@ -20,11 +20,11 @@ The **DMG Read More Plugin** is a custom WordPress plugin that provides a Gutenb
 
 1. Clone the repository into your WordPress plugins directory e.g with command line / termianl:
  
-    git clone https://github.com/mh-creative/DMG-Read-More.git wp-content/plugins/dmg-read-more
+    ```git clone https://github.com/mh-creative/DMG-Read-More.git wp-content/plugins/dmg-read-more```
 
 2. Navigate to the plugin directory:
 
-    cd wp-content/plugins/dmg-read-more
+    ```cd wp-content/plugins/dmg-read-more```
 
 3. For developers who want to contribute:
 
