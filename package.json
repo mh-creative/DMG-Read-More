@@ -1,0 +1,16 @@
+{
+  "name": "dmg-read-more",
+  "version": "1.0.0",
+  "description": "A plugin to add a Gutenberg block for linking to recent posts.",
+  "main": "dmg-read-more.php",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^24.6.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
