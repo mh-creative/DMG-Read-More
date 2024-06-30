@@ -30,8 +30,8 @@ The **DMG Read More Plugin** is a custom WordPress plugin that provides a Gutenb
 
 - Install dependencies and build the project:
 
-    npm install
-    npm run build
+    ```npm install```
+    ```npm run build```
 
 4. For users who only want to use the plugin:
 
@@ -47,7 +47,7 @@ The final built files are included, so you can directly activate the plugin thro
 - WP-CLI Command
   - Run the dmg-read-more search command with optional date range arguments:
 
-    wp dmg-read-more search --date-after=YYYY-MM-DD --date-before=YYYY-MM-DD
+    ```wp dmg-read-more search --date-after=YYYY-MM-DD --date-before=YYYY-MM-DD```
 
   - If no dates are provided, the command defaults to the last 30 days.
   - The command will log the Post IDs of posts containing the "Read More" block to STDOUT.
@@ -68,12 +68,12 @@ The final built files are included, so you can directly activate the plugin thro
 - npm run build: Build the project.
 
 ## CSS Styling
-- The link is styled with CSS for a blue color (#0073aa) and a lighter blue on hover (#005f8d).
+- The link is styled with CSS for a blue color ```(#0073aa)``` and a lighter blue on hover ```(#005f8d)```.
 
 ## Enqueuing CSS
 - CSS is enqueued in the dmg-read-more.php file to style the anchor links.
 
-## Example Code Block
+## Example Code Block - block.js
 
     import { registerBlockType } from '@wordpress/blocks';
     import { InspectorControls } from '@wordpress/block-editor';
@@ -192,7 +192,7 @@ The final built files are included, so you can directly activate the plugin thro
         },
     });
 
-## Example WP-CLI Command
+## Example WP-CLI Command - dmg-read-more.php
 
     <?php
     if (defined('WP_CLI') && WP_CLI) {
